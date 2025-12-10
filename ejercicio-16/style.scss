@@ -1,0 +1,13 @@
+
+@for $i from 1 through 9 {
+  .m-#{$i} { 
+        margin: #{$i}rem; 
+    }
+}
+@for $i from 1 through 9 {
+  
+
+  .p-#{$i}{
+        padding: #{$i}px;
+  }
+}

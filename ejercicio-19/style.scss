@@ -1,0 +1,12 @@
+
+$themes: (
+  "primary": blue,
+  "danger": red,
+  "success": green
+);
+
+@each $name,$color in $themes{
+  .bg-#{$name} {
+    background-color: $color;
+  }
+}

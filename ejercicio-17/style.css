@@ -1,0 +1,11 @@
+@media (max-width: 400px) {
+  .hide-mobile {
+    display: none;
+  }
+}
+
+@media (max-width: 768px) {
+  .hide-tablet {
+    display: none;
+  }
+}/*# sourceMappingURL=style.css.map */

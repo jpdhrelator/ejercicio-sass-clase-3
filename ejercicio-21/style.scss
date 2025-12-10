@@ -1,0 +1,14 @@
+@use "sass:map";
+@use "cliente-2" as cliente;
+
+.text-primary {
+  color: map.get(cliente.$config,"colors","primary")
+}
+
+.text-secondary {
+  color: map.get(cliente.$config,"colors","secondary")
+}
+
+span {
+  font-family: map.get(cliente.$config,"font");
+}

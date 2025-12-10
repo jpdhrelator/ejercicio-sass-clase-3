@@ -1,0 +1,8 @@
+@use "sass:list";
+
+$sizes: 10px, 41px, 65px;
+
+
+.margin-md {
+    margin: list.nth($sizes, 3);
+}

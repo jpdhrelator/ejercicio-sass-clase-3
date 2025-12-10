@@ -1,0 +1,10 @@
+
+$icons: "save", "edit", "delete","submit";
+
+
+@each $icon in $icons {
+    .icon-#{$icon} {
+      background-image: url(img/#{$icon}.webp);
+    
+    }
+}

@@ -1,0 +1,18 @@
+
+@mixin theme($mode){
+  @if $mode == 'dark'{
+    background: #000;
+    color: #fff;
+  } @else if $mode == 'ligth' {
+    background: #fff;
+    color: #000;
+  }@else {
+    background: #ff2600;
+    color: #1bee08;
+  }
+
+}
+
+.mod-dark {
+  @include theme('otro')
+}

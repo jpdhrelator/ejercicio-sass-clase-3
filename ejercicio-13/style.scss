@@ -1,0 +1,11 @@
+
+@use "sass:color";
+
+$base: #3498db;
+
+.btn-hover {
+    background-color: $base;
+    &:hover {
+        background-color: color.scale($base,  $lightness: -58%);
+    }
+}

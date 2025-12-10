@@ -1,0 +1,18 @@
+@use "sass:map";
+$breakpoints :(
+  "mobile":400px,
+  "tablet":768px
+);
+ 
+.hide-mobile {
+  @media (max-width: map.get($breakpoints, "mobile")) {
+    display: none;
+  }
+  
+}
+.hide-tablet {
+  @media (max-width: map.get($breakpoints, "tablet")) {
+    display: none;
+  }
+  
+}
